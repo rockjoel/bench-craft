@@ -1,6 +1,6 @@
 # Capabilities and kinds of work
 
-Hardware-first. In the pre-agent era this was **solo bench craft** — learn from datasheets, build, measure, fail, rewrite the note. Software for phones/backends was usually someone else’s lane.
+Hardware-first. In the pre-agent era this was **bench craft** — learn from datasheets, build, measure, fail, rewrite the note. Phone/backend software was usually a collaborator’s lane; hardware choices were still discussed together.
 
 ## In practice
 
