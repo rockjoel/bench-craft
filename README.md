@@ -2,7 +2,7 @@
 
 Public **templates, checklists, and sanitized technical background** for bounded prototype bring-up — low-voltage hardware, sensors, and shop fabrication.
 
-Built from years of **solo hardware work** (datasheets, forums, broken boards) before coding agents entered the loop. The point is a repeatable method: **scope → proofs → outcome → limits** — without pretending to certify products.
+Built from years of **hardware-first bench craft** (datasheets, forums, broken boards) before coding agents entered the loop. Phone and backend software was usually a collaborator’s lane; hardware choices were still discussed together. The point is a repeatable method: **scope → proofs → outcome → limits** — without pretending to certify products.
 
 ## What’s inside
 
