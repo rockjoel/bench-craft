@@ -1,22 +1,22 @@
-# Componenti e moduli (famiglie)
+# Component families
 
-Solo famiglie con evidenza storica. **Niente codici parte non verificati.**
+Families with historical use in prototypes. **No unverified exact part numbers.**
 
-| Famiglia | Contesto |
+| Family | Context |
 |---|---|
-| **Celle di carico + condizionamento** | Misura carico con path meccanico |
-| **Temperatura / umidità** | Monitoraggio ambientale e prove di banco |
-| **Flusso liquido / livello** | Acqua / serbatoi in prototipi ambientali |
-| **Meteo di base** (pressione, vento, pioggia) | Stack ambientale remoto |
-| **Accelerometri / IMU** | Logging inerziale, prove breadboard |
-| **Memoria SD-class** | Logging offline |
-| **Wireless / radio** | Uplink da prototipo (protocollo esatto non dichiarato qui) |
-| **Webcam** | Acquisizione immagini in stack di monitoraggio |
-| **Modem cellulare storico (3G-class)** | Uplink remoto |
-| **Alimentazione solare / vincoli di consumo** | Outdoor / autonomia |
-| **Optoisolatori** | Isolamento MCU ↔ elettronica LV esistente |
-| **Relè / attuatori documentati** | Se datasheet e limiti sono chiari |
-| **Hub USB / alimentazioni LV** | Stack SBC+MCU |
-| **Ethernet su scheda prototipo** | Nodi di campo saldati a mano |
+| **Load cells + conditioning** | Force/load measurement with a mechanical path |
+| **Temperature / humidity** | Environmental monitoring and bench trials |
+| **Liquid flow / level** | Water / tank style environmental prototypes |
+| **Basic weather** (pressure, wind, rain) | Outdoor remote stacks |
+| **Accelerometers / IMU** | Inertial logging, breadboard trials |
+| **SD-class memory** | Offline logging |
+| **Wireless / radio** | Prototype uplink (exact protocol not claimed here) |
+| **Webcam** | Image capture in monitoring stacks |
+| **Cellular modem (3G-era class)** | Historical remote uplink |
+| **Solar / power budgets** | Outdoor autonomy constraints |
+| **Optoisolators** | Isolate MCU from other LV domains |
+| **Relays / documented actuators** | When datasheets and limits are clear |
+| **USB hubs / LV supplies** | SBC + MCU stacks |
+| **Ethernet on hand-built nodes** | Field-style prototypes |
 
-Non si rivendicano componenti citati solo in esercizi ipotetici di QA.
+Do not claim parts that only appeared in hypothetical QA exercises.

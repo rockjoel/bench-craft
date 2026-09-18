@@ -1,22 +1,24 @@
-# Note di solidità (pubbliche)
+# Honesty notes (public)
 
-Per non gonfiare il profilo.
+So the profile does not get inflated.
 
-## Ben supportato
+## Well supported
 
-- Integrazione Arduino-class + sensori ambientali + debug consumi
-- Prototipi ESP-class con isolamento, saldatura, test fisico, UI locale
-- CAD 3D funzionale + iterazioni stampate/metalliche
-- Celle di carico con path meccanico
-- Multimetro, saldatura, millefori/PCB artigianale
-- Router CNC 3 assi da banco (legno) e stampa 3D
-- Reality check esplicito (stop quando conviene)
-- QA delimitato di sistemi locali AI-assisted (**non** security audit)
+- Arduino-class integration + environmental sensors + power/wiring debug  
+- ESP-class prototypes with isolation, soldering, physical test, local UI  
+- Functional 3D CAD + printed and metal iterations  
+- Load cells with a mechanical path  
+- Multimeter, soldering, perfboard / hobbyist PCB  
+- 3-axis bench CNC router (wood) and FDM 3D print  
+- Explicit reality check (stop when it is not worth it)  
+- Bounded QA of local AI-assisted systems (**not** a security audit)  
+- Early PCB sketches with **Fritzing / Eagle** (sometimes shared with collaborators)
 
-## Da non overclaimare
+## Easy to overclaim — don’t
 
-- Currency attuale di SolidWorks / Rhinoceros / Fanuc (più Fusion oggi)
-- Ownership del software in archivi di gruppo
-- Modelli esatti di sensori (meglio famiglie)
-- Programmazione CNC metallica autonoma
-- Metrologia / tolleranze certificate
+- Current daily currency of SolidWorks / Rhinoceros / Fanuc (Fusion is the more recent CAD/CAM path)  
+- Software ownership in group archives  
+- Exact sensor model numbers (prefer families)  
+- Autonomous metal CNC programming as a present claim  
+- Certified metrology / production tolerances  
+- Certified medical devices or patented product identity (kept offline)

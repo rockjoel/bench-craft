@@ -1,50 +1,50 @@
-# QA report — [nome prototipo / sessione]
+# QA report — [prototype / session name]
 
-- **Data:** YYYY-MM-DD
-- **Operatore:**
-- **Perimetro (in scope):**
-- **Fuori scope (esplicito):**
-- **Criteri di accettazione:**
-  1.
-  2.
-- **Stop conditions:** (quando fermarsi anche se “si potrebbe continuare”)
+- **Date:** YYYY-MM-DD  
+- **Operator:**  
+- **In scope:**  
+- **Out of scope (explicit):**  
+- **Acceptance criteria:**  
+  1.  
+  2.  
+- **Stop conditions:** (when to stop even if “one more try” is tempting)
 
 ## Setup
 
-- Hardware / firmware / tool usati:
-- Alimentazione (solo LV):
-- Strumenti di misura:
+- Hardware / firmware / tools used:  
+- Power (LV only):  
+- Measurement instruments:  
 
-## Procedure eseguite
+## Procedures run
 
-| # | Step | Osservazione | Note |
+| # | Step | Observation | Notes |
 |---|---|---|---|
 | 1 |  |  |  |
 
-## Risultati
+## Results
 
-| Criterio | Esito | Evidenza (foto/log/misura) |
+| Criterion | Outcome | Evidence (photo/log/measurement) |
 |---|---|---|
-|  | pass / fail / n.d. |  |
+|  | pass / fail / n.a. |  |
 
-## Distinzione
+## Distinctions
 
-| Tipo | Contenuto |
+| Type | Content |
 |---|---|
-| **Fatti osservati** |  |
-| **Ipotesi** |  |
+| **Observed facts** |  |
+| **Hypotheses** |  |
 | **Unknown** |  |
 
-## Esito complessivo
+## Overall outcome
 
-- [ ] pass
-- [ ] fail
-- [ ] partial
-- [ ] inconclusive
+- [ ] pass  
+- [ ] fail  
+- [ ] partial  
+- [ ] inconclusive  
 
-**Sintesi (3–5 righe):**
+**Summary (3–5 lines):**
 
-## Limiti e AI disclosure
+## Limits and AI disclosure
 
-- Limiti di questa sessione:
-- Assistenza AI usata (se sì: per cosa; esecuzione fisica: umana):
+- Limits of this session:  
+- AI assistance used (if yes: for what; physical execution: human):  

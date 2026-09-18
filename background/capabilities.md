@@ -1,27 +1,29 @@
-# Capacità e tipi di lavoro
+# Capabilities and kinds of work
 
-## Cosa so fare (in pratica)
+Hardware-first. In the pre-agent era this was **solo bench craft** — learn from datasheets, build, measure, fail, rewrite the note. Software for phones/backends was usually someone else’s lane.
 
-1. **Integrazione hardware a bassa tensione** — MCU, sensori, attuatori, alimentazioni; cablaggio/saldatura; misure; isolamento guasti
-2. **Prototipazione end-to-end** — dal requisito/CAD al pezzo stampato o lavorato, fino al test funzionale delimitato
-3. **Monitoraggio ambientale prototipale** — multi-sensore, MCU + SBC, connettività, debug consumi/cablaggi
-4. **Misura del carico con path meccanico** — cella, packaging, scheda, memoria/link; focus integrazione fisica
-5. **Logging inerziale a batteria** — accelerometro + storage; limiti di autonomia riconosciuti
-6. **Feasibility MCU su elettronica esistente** — osservazione linee, isolamento ottico, UI locale; stop se esiste una via più semplice
-7. **CAD/CAM e CNC da banco** — geometria, setup, simulazione, taglio legno/pannello
-8. **PCB artigianale** — da circuito collaudato a maschera/incisione, poi eventuale scheda industriale
-9. **Commissioning QA di sistemi locali** — istruzioni → setup fisico → test controllato → report
-10. **Remote hands meccanico guidato** — non safety-critical; procedura e documentazione prima/dopo
-11. **Reality check** — separare “possibile” da “conveniente / sicuro / manutenibile”
-12. **Officina di supporto** — adattatori, staffaggi, piccoli lotti non strutturali
+## In practice
 
-## Limiti onesti
+1. **Low-voltage hardware integration** — MCU, sensors, actuators, supplies; wiring/soldering; measurement; fault isolation  
+2. **End-to-end physical prototyping** — from requirement/CAD to printed or machined part, then a bounded functional test  
+3. **Environmental monitoring prototypes** — multi-sensor stacks, MCU + SBC, connectivity, power/wiring debug  
+4. **Load sensing with a mechanical path** — load cell, packaging, board, memory/link; focus on the physical integration  
+5. **Battery inertial logging** — accelerometer + storage; battery-life limits acknowledged  
+6. **MCU feasibility on existing LV electronics** — observe lines, optical isolation, local UI; stop when a simpler path exists  
+7. **Bench CAD/CAM and CNC** — geometry, fixturing, simulation, wood/panel cuts  
+8. **Hobbyist PCB path** — proven circuit → mask/etch or similar, then optionally an industrial board later  
+9. **QA commissioning of local systems** — instructions → physical setup → controlled test → report  
+10. **Guided non-safety-critical mechanical remote hands** — procedure and before/after documentation  
+11. **Reality check** — separate “possible” from “worth it / safe / maintainable”  
+12. **Support shop work** — adapters, brackets, small non-structural batches  
 
-- Non elettricista / non lavori su **rete 230 V** nel servizio LV
-- Non certificazioni di prodotto, mediche, strutturali o scientifiche
-- Non CNC industriale specialistico né tolleranze da produzione di serie
-- Non reverse engineering professionale di protocolli
-- Non cybersecurity / pentest / sorveglianza occulta
-- Non saldature strutturali certificate né pezzi safety-critical
-- Non sole authorship su progetti collaborativi storici
-- AI può accelerare ricerca/docs/codice; **esecuzione e responsabilità restano umane**
+## Honest limits
+
+- Not a licensed electrician; no **mains** work in the LV service  
+- No product, medical, structural, or scientific certification claims  
+- Not specialist industrial CNC; not production-tolerance metrology  
+- Not professional protocol reverse-engineering  
+- Not cybersecurity / pentest / covert surveillance  
+- Not certified structural welding; not safety-critical load-bearing parts  
+- Not sole authorship on every historical collaboration  
+- Agents can speed research/docs/code; **physical execution and responsibility stay human**

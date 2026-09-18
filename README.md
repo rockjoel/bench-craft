@@ -1,29 +1,34 @@
-# Prototype QA notes
+# bench-craft
 
-Template pubblici, checklist e **background tecnico** per collaudo delimitato di prototipi (hardware / IoT a bassa tensione e oltre).
+Public **templates, checklists, and sanitized technical background** for bounded prototype bring-up — low-voltage hardware, sensors, and shop fabrication.
 
-Obiettivo: rendere ripetibile il metodo (scope → prove → esito → limiti), senza fingere certificazioni.
+Built from years of **solo hardware work** (datasheets, forums, broken boards) before coding agents entered the loop. The point is a repeatable method: **scope → proofs → outcome → limits** — without pretending to certify products.
 
-## Contenuto
+## What’s inside
 
-| Percorso | Uso |
+| Path | Use |
 |---|---|
-| [`templates/qa-report.md`](templates/qa-report.md) | Report di collaudo (pass / fail / partial / inconclusive) |
-| [`checklists/lv-bench.md`](checklists/lv-bench.md) | Checklist banco LV |
-| [`checklists/reality-check.md`](checklists/reality-check.md) | Reality check piano ↔ fisico |
-| [`background/`](background/) | **Strumenti, componenti e capacità** del percorso tecnico (sanitizzato) |
+| [`templates/qa-report.md`](templates/qa-report.md) | Bring-up / QA report (pass / fail / partial / inconclusive) |
+| [`checklists/lv-bench.md`](checklists/lv-bench.md) | Low-voltage bench checklist |
+| [`checklists/reality-check.md`](checklists/reality-check.md) | Plan vs physical world before you scale |
+| [`background/`](background/) | Tools, component families, capabilities, honesty notes |
 
-## Esiti ammessi
+## Allowed outcomes
 
-- **pass** — criteri soddisfatti nel perimetro dichiarato
-- **fail** — criterio obbligatorio non soddisfatto
-- **partial** — utile ma incompleto / incertezza nota
-- **inconclusive** — non decidibile con le prove fatte
+- **pass** — acceptance criteria met inside the declared perimeter  
+- **fail** — a required criterion failed  
+- **partial** — useful but incomplete; uncertainty stated  
+- **inconclusive** — not decidable with the proofs that were run  
 
-## Cosa non è
+## What this is not
 
-Non è certificazione di prodotto, conformità CE, lavoro su rete elettrica, né audit di sicurezza professionale.
+Not product certification, not medical/structural approval, not mains/electrician work, not a professional security audit.
 
-## Licenza
+## Related
+
+- Profile: [rockjoel](https://github.com/rockjoel)  
+- Post-AI tooling: [local-skill-router](https://github.com/rockjoel/local-skill-router)
+
+## License
 
 [MIT](LICENSE)

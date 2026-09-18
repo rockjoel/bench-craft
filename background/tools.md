@@ -1,41 +1,41 @@
-# Strumenti e piattaforme
+# Tools and platforms
 
 ## MCU / SBC / embedded
 
-| Famiglia | Uso tipico |
+| Family | Typical use |
 |---|---|
-| **Arduino-class** (anche Mega / ATmega) | Prototipi LV, sensori, automazioni semplici, multi-modulo |
-| **ESP-class** (es. NodeMCU / ESP8266) | Interfaccia a elettronica LV, linee digitali, flash sketch, UI web locale |
-| **SBC classe Raspberry Pi** | Gateway/nodo in stack di monitoraggio (MCU + sensori + rete) |
-| **Breadboard / millefori / PCB** | Prove, saldatura, toner-transfer / incisione, poi eventuali schede industriali |
+| **Arduino-class** (incl. Mega / ATmega) | LV prototypes, sensors, simple automation, multi-module setups |
+| **ESP-class** (e.g. NodeMCU / ESP8266) | LV digital lines, flash sketches, local web UI |
+| **Raspberry Pi–class SBC** | Gateway/node in monitoring stacks (MCU + sensors + network) |
+| **Breadboard / perfboard / PCB** | Trials, soldering, toner-transfer / etch, then optional industrial boards |
 
-## Laboratorio / officina leggera
+## Light lab / shop
 
-- **Multimetro** — tensione, polarità, continuità, isolamento sottosistemi
-- **Saldatura / dissaldatura a stagno** — prototipi e modifiche
-- **Calibro / micrometro** — controlli dimensionali in contesto CNC
-- **Utensili di officina** — trapano a colonna, fresa/tornio manuali di supporto
-- **Saldatura a filo animato (FCAW / MIG no-gas)** — piccoli manufatti **non** strutturali (non certificata)
+- **Multimeter** — voltage, polarity, continuity, subsystem isolation  
+- **Soldering / desoldering** — prototypes and rework  
+- **Calipers / micrometer** — dimensional checks around CNC work  
+- **Shop tools** — drill press, manual mill/lathe as support  
+- **Flux-cored / no-gas MIG-style welding** — small **non-structural** fabrications (not certified)
 
-## CAD / CAM / grafica tecnica
+## CAD / CAM / technical graphics
 
-| Strumento | Note |
+| Tool | Notes |
 |---|---|
-| **Fusion 360** (CAD + Manufacture) | Flusso più recente: geometria, grezzo, utensile, simulazione |
-| **SolidWorks**, **Rhinoceros** | Esperienza storica (non il daily driver attuale) |
-| **Cura** | Slicing stampa 3D |
-| **Fritzing / EAGLE** | Schemi e prove PCB in contesti storici |
-| **Illustrator / Photoshop** | Grafica / prestampa (background, non il core attuale) |
+| **Fusion 360** (CAD + Manufacture) | More recent flow: geometry, stock, toolpath, simulation |
+| **SolidWorks**, **Rhinoceros** | Historical experience (not the current daily driver) |
+| **Cura** | FDM slicing |
+| **Fritzing / Eagle** | Schematics and early PCB sketches in historical projects |
+| **Illustrator / Photoshop** | Graphics / prepress background (not the core craft) |
 
-## Stampa 3D / CNC
+## 3D print / CNC
 
-- **Stampa 3D FDM** — involucri, adattatori, prove funzionali
-- **Router CNC 3 assi da banco** — legno/pannello, staffaggio, piccoli lotti, diagnosi errori CAD/CAM
-- **CNC industriale (tornio / 3 assi)** — esperienza passata come operatore su programmi già predisposti (**non** programmazione industriale autonoma attuale)
-- Formazione **Fanuc / ISO** — da riattivare e verificare prima di claim “pronto”
+- **FDM 3D print** — enclosures, adapters, functional trials  
+- **3-axis bench CNC router** — wood/panel, fixturing, small batches, CAD/CAM error diagnosis  
+- **Industrial CNC (lathe / 3-axis)** — past operator experience on programs already prepared (**not** a present claim of autonomous industrial programming)  
+- **Fanuc / ISO** training history — re-verify before claiming “ready”
 
-## Software legato al fisico
+## Software touching the physical
 
-- Flash e test sketch su MCU ESP-class
-- Piccole UI web locali su prototipo
-- Commissioning delimitato di sistemi locali AI-assisted (setup + acceptance test — **non** cybersecurity)
+- Flash and test sketches on ESP-class MCUs  
+- Small local web UIs on a prototype  
+- Bounded commissioning of local AI-assisted systems (setup + acceptance — **not** cybersecurity)

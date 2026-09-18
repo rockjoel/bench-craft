@@ -1,31 +1,31 @@
-# Checklist — banco bassa tensione (LV)
+# Checklist — low-voltage (LV) bench
 
-Usare prima di alimentare, saldare o chiudere un collaudo. Solo circuiti **bassa tensione** documentati.
+Use before powering, soldering, or closing a bring-up. Documented **low-voltage** circuits only.
 
-## Prima di alimentare
+## Before power
 
-- [ ] Schema / datasheet a portata di mano
-- [ ] Tensione e polarità verificate (multimetro)
-- [ ] Nessun contatto involontario con rete / HV
-- [ ] Fusibile / protezione adeguata se prevista
-- [ ] Massa / riferimento comuni chiari tra moduli
+- [ ] Schematic / datasheet at hand  
+- [ ] Voltage and polarity checked (multimeter)  
+- [ ] No accidental contact with mains / HV  
+- [ ] Fuse / protection adequate if required  
+- [ ] Common ground / reference clear across modules  
 
-## Cablaggio e assemblaggio
+## Wiring and assembly
 
-- [ ] Connettori e sezioni cavo adeguati
-- [ ] Strain relief dove serve
-- [ ] Isolamento / optoisolamento se interfaccia verso altro dominio
-- [ ] Dissaldatura/saldatura controllata (niente ponti evidenti)
+- [ ] Connectors and wire gauge adequate  
+- [ ] Strain relief where needed  
+- [ ] Isolation / opto-isolation if crossing domains  
+- [ ] Controlled solder/desolder (no obvious bridges)  
 
-## Prova funzionale
+## Functional trial
 
-- [ ] Upload / boot del firmware (se applicabile)
-- [ ] Segnale atteso confrontato con stato osservato
-- [ ] Comportamento a riposo e sotto carico leggero
-- [ ] Registrato almeno un esito negativo o limite se emerso
+- [ ] Firmware upload / boot (if applicable)  
+- [ ] Expected signal vs observed state  
+- [ ] Idle behavior and light load  
+- [ ] At least one negative outcome or limit recorded if it appeared  
 
-## Chiusura
+## Close-out
 
-- [ ] Spegnimento sicuro
-- [ ] Note scritte (anche se partial / inconclusive)
-- [ ] Foto/log solo se autorizzati e senza PII inutili
+- [ ] Safe shutdown  
+- [ ] Written notes (even if partial / inconclusive)  
+- [ ] Photos/logs only if allowed and without unnecessary PII  

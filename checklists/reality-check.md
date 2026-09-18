@@ -1,18 +1,18 @@
 # Checklist — reality check
 
-Confronta il piano digitale con il mondo fisico **prima** di promettere o scalare.
+Compare the digital plan to the physical world **before** promising or scaling.
 
-## Domande obbligatorie
+## Required questions
 
-- [ ] Cosa deve funzionare **fisicamente**, non solo in simulazione?
-- [ ] Quali vincoli di spazio, alimentazione, calore, umidità, vibrazione?
-- [ ] Costo pezzi + tempo setup è ancora sensato rispetto al beneficio?
-- [ ] Manutenzione: chi apre/ripara tra 6 mesi?
-- [ ] Fallback se il pezzo critico fallisce?
-- [ ] Stop condition: quando “possibile” non vale più “conveniente”?
+- [ ] What must work **physically**, not only in simulation?  
+- [ ] Space, power, heat, humidity, vibration constraints?  
+- [ ] Parts cost + setup time still sensible vs benefit?  
+- [ ] Maintenance: who opens/repairs this in six months?  
+- [ ] Fallback if the critical part fails?  
+- [ ] Stop condition: when does “possible” stop being “worth it”?  
 
-## Output minimo
+## Minimum output
 
-1. Lista vincoli fisici confermati
-2. Lista ipotesi ancora aperte
-3. Decisione: procedere / rivedere scope / stop
+1. Confirmed physical constraints  
+2. Still-open hypotheses  
+3. Decision: proceed / revise scope / stop  
