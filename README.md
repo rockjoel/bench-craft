@@ -1,8 +1,8 @@
 # bench-craft
 
-Public **templates, checklists, and sanitized technical background** for bounded prototype bring-up — low-voltage hardware, sensors, and shop fabrication.
+Public **templates, checklists, and sanitized technical background** for bounded prototype bring-up — low-voltage hardware, sensors, shop fabrication, and **hands-on mechanical service** (small engines + light vehicle DIY).
 
-Built from years of **hardware-first bench craft** (datasheets, forums, broken boards) before coding agents entered the loop. Phone and backend software was usually a collaborator’s lane; hardware choices were still discussed together. The point is a repeatable method: **scope → proofs → outcome → limits** — without pretending to certify products.
+Built from years of **hardware-first bench craft** (datasheets, forums, broken boards, and real tear-downs) before coding agents entered the loop. Phone and backend software was usually a collaborator’s lane; hardware choices were still discussed together. The point is a repeatable method: **scope → proofs → outcome → limits** — without pretending to certify products or vehicles.
 
 ## What’s inside
 
@@ -22,7 +22,7 @@ Built from years of **hardware-first bench craft** (datasheets, forums, broken b
 
 ## What this is not
 
-Not product certification, not medical/structural approval, not mains/electrician work, not a professional security audit.
+Not product certification, not medical/structural approval, not mains/electrician work, not a professional security audit, not a licensed mechanic / roadworthiness sign-off.
 
 ## Related
 

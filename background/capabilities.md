@@ -16,6 +16,8 @@ Hardware-first. In the pre-agent era this was **bench craft** — learn from dat
 10. **Guided non-safety-critical mechanical remote hands** — procedure and before/after documentation  
 11. **Reality check** — separate “possible” from “worth it / safe / maintainable”  
 12. **Support shop work** — adapters, brackets, small non-structural batches  
+13. **Small-engine service (garden / forestry hand tools)** — brush cutters and chainsaws: full teardown and cleaning, carburetor membranes, cylinder rework/refit as practiced on own tools; functional restart check — **not** machinery-safety certification or a commercial workshop credential  
+14. **Light vehicle DIY mechanical** — driveshafts / CV joints and boots, alternator, transmission oil, brake service as practiced on a personal car; workshop manuals, torque values, symptom → part → road-symptom gone — **not** roadworthiness certification, not a licensed garage  
 
 ## Honest limits
 
@@ -26,4 +28,5 @@ Hardware-first. In the pre-agent era this was **bench craft** — learn from dat
 - Not cybersecurity / pentest / covert surveillance  
 - Not certified structural welding; not safety-critical load-bearing parts  
 - Not sole authorship on every historical collaboration  
+- Not a licensed mechanic or vehicle inspector; personal DIY ≠ commercial liability on third-party cars or powered equipment  
 - Agents can speed research/docs/code; **physical execution and responsibility stay human**

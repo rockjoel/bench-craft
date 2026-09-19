@@ -15,7 +15,9 @@
 - **Soldering / desoldering** — prototypes and rework  
 - **Calipers / micrometer** — dimensional checks around CNC work  
 - **Shop tools** — drill press, manual mill/lathe as support  
-- **Flux-cored / no-gas MIG-style welding** — small **non-structural** fabrications (not certified)
+- **Flux-cored / no-gas MIG-style welding** — small **non-structural** fabrications (not certified)  
+- **Hand tools + torque wrench** — small-engine and light-vehicle DIY (personal practice; wrench calibration not claimed)  
+- **Workshop manuals / wiring diagrams** — symptom → procedure → part, without inventing specs
 
 ## CAD / CAM / technical graphics
 
